@@ -5,7 +5,7 @@
 
 /* header section style */
 .header {
-    width: 1600px;
+    width: 1600;
     height: 809px;
     left: 1600px;
     top: 0px;
@@ -28,6 +28,7 @@
 }
 
 .btn_primary {
+    font-style: none;
     height: 64px;
     width: 160px;
     color: antiquewhite;
@@ -37,6 +38,8 @@
     font-size: 20px;
     line-height: 23px;
     margin-top: 24px;
+    border-color: orangered;
+
 }
 
 /* My failures of previous year  */
@@ -108,12 +111,14 @@
 
 /* positive mindset */
 .mindset {
+    align-items: center;
     width: 1140px;
     height: 300px;
     left: 230px;
     top: 2216.3px;
-    margin: 120px;
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.613) , rgba(238, 154, 106, 0.282)) ,url("../images/watch.png");
+    margin: auto;
+    margin-bottom: 120px;
+    background-image: linear-gradient(to right, #ea6e21d9 , rgba(255, 255, 255, 0)) ,url("../images/watch.png");
     border-radius: 8px;
 }
 
@@ -125,8 +130,8 @@
     margin-left: 64px;
     margin-bottom: 5px;
     margin-right: 617px;
-    padding-top: 60px;
-
+    padding-top: 70px;
+    color: white;
 }
 
 .second-btn {
@@ -136,6 +141,11 @@
     text-align: center;
     color: #F15B22;
 
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: white;
+
 
 }
 
@@ -144,10 +154,52 @@
     display: flex;
     background-color: rgba(0, 0, 0, 0.802);
 }
+.future>p{
+    padding-bottom: 20px;
+}
 
 .footer-description {
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px;
+    line-height: 53px; 
+    padding-bottom: 8px; 
+}
+
+.future{
+    padding: 130px 220px;
     color: #F8F8F8;
+
+}
+
+.icons{
+    padding-top: 9px;
+}
+
+.subscribe{
+    padding: 130px 220px;
+}
+
+.subscribe>h3{
+    padding-bottom: 20px;
+}
+
+#email{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    border-color: antiquewhite;
+    color: #F8F8F8;
+    font-weight: 500;
+}
+
+.subs-btn{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: white;
 }
