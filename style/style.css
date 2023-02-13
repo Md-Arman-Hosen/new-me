@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: Work Sans;
+}
+
+/* header section style */
+.header {
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+    background-image: url("../images/banner/banner2.png");
+}
+
+.banner {
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+
+}
+
+.header_title {
+    font-weight: 700px;
+    font-size: 65px;
+    line-height: 40px;
+    padding-bottom: 24px;
+
+}
+
+.btn_primary {
+    height: 64px;
+    width: 160px;
+    color: antiquewhite;
+    border-radius: 7px;
+    background-color: orangered;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 24px;
+}
+
+/* My failures of previous year  */
+
+
+.failures {
+    margin: 130px 322px 130px 206px;
+    display: flex;
+    justify-content: center;
+}
+
+.women_picture {
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    left: 277px;
+    top: 948px;
+    background-color: rgba(165, 42, 42, 0.281);
+    margin-top: 50px;
+}
+
+.section1-drescription {
+    margin-top: 200px;
+    padding-left: 60px;
+}
+
+.section1-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.section1-title-description {
+    margin-top: 16px;
+    list-style: none;
+}
+
+.section1-title-description li:before {
+    content: '✓';
+    color: aqua;
+}
+
+
+/* My Plans */
+.plans {
+    margin: 230px;
+}
+
+.section1-title {
+    text-align: center;
+}
+
+.plan-description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-description {
+    margin-top: 110px;
+}
+
+.section1-h6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+/* positive mindset */
+.mindset {
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2216.3px;
+    margin: 120px;
+    background-image: url(../images/watch.png);
+    border-radius: 8px;
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 59px;
+    margin-left: 64px;
+    margin-bottom: 5px;
+    margin-right: 617px;
+}
+
+.second-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.802);
+}
+
+.footer-description {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
